@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29097BF525B677B800232CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29097BF425B677B800232CEC /* AppDelegate.swift */; };
+		29097BF725B677B800232CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29097BF625B677B800232CEC /* ViewController.swift */; };
+		29097BFC25B677B800232CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29097BFA25B677B800232CEC /* Main.storyboard */; };
+		29097BFE25B677B900232CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29097BFD25B677B900232CEC /* Assets.xcassets */; };
+		29097C0125B677B900232CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29097BFF25B677B900232CEC /* LaunchScreen.storyboard */; };
+		29097C1125B677DE00232CEC /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0925B677DE00232CEC /* 04.usdz */; };
+		29097C1225B677DE00232CEC /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0A25B677DE00232CEC /* 01.usdz */; };
+		29097C1325B677DE00232CEC /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0B25B677DE00232CEC /* 06.usdz */; };
+		29097C1425B677DE00232CEC /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0C25B677DE00232CEC /* 07.usdz */; };
+		29097C1525B677DE00232CEC /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0D25B677DE00232CEC /* 03.usdz */; };
+		29097C1625B677DE00232CEC /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0E25B677DE00232CEC /* 08.usdz */; };
+		29097C1725B677DE00232CEC /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C0F25B677DE00232CEC /* 05.usdz */; };
+		29097C1825B677DE00232CEC /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29097C1025B677DE00232CEC /* 02.usdz */; };
+		664E2B621A986B9F7C715C69 /* Pods_MemoryGameAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F5B3D7E33918DBC0B3A411 /* Pods_MemoryGameAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29097BF125B677B800232CEC /* MemoryGameAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGameAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29097BF425B677B800232CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29097BF625B677B800232CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29097BFB25B677B800232CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29097BFD25B677B900232CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29097C0025B677B900232CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29097C0225B677B900232CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29097C0925B677DE00232CEC /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 04.usdz; sourceTree = "<group>"; };
+		29097C0A25B677DE00232CEC /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		29097C0B25B677DE00232CEC /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
+		29097C0C25B677DE00232CEC /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
+		29097C0D25B677DE00232CEC /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
+		29097C0E25B677DE00232CEC /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
+		29097C0F25B677DE00232CEC /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 05.usdz; sourceTree = "<group>"; };
+		29097C1025B677DE00232CEC /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
+		94CDF9C405BD29C4184EF2CB /* Pods-MemoryGameAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryGameAR.debug.xcconfig"; path = "Target Support Files/Pods-MemoryGameAR/Pods-MemoryGameAR.debug.xcconfig"; sourceTree = "<group>"; };
+		98F5B3D7E33918DBC0B3A411 /* Pods_MemoryGameAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoryGameAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBDB281438A8CB78EE6C56A /* Pods-MemoryGameAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryGameAR.release.xcconfig"; path = "Target Support Files/Pods-MemoryGameAR/Pods-MemoryGameAR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29097BEE25B677B800232CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664E2B621A986B9F7C715C69 /* Pods_MemoryGameAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29097BE825B677B800232CEC = {
+			isa = PBXGroup;
+			children = (
+				29097BF325B677B800232CEC /* MemoryGameAR */,
+				29097BF225B677B800232CEC /* Products */,
+				7DF228C756C158EAE328152A /* Pods */,
+				6ED7BB87B793ACDA262CB47A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29097BF225B677B800232CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29097BF125B677B800232CEC /* MemoryGameAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29097BF325B677B800232CEC /* MemoryGameAR */ = {
+			isa = PBXGroup;
+			children = (
+				29097BF425B677B800232CEC /* AppDelegate.swift */,
+				29097BF625B677B800232CEC /* ViewController.swift */,
+				29097BFA25B677B800232CEC /* Main.storyboard */,
+				29097BFD25B677B900232CEC /* Assets.xcassets */,
+				29097C0A25B677DE00232CEC /* 01.usdz */,
+				29097C1025B677DE00232CEC /* 02.usdz */,
+				29097C0D25B677DE00232CEC /* 03.usdz */,
+				29097C0925B677DE00232CEC /* 04.usdz */,
+				29097C0F25B677DE00232CEC /* 05.usdz */,
+				29097C0B25B677DE00232CEC /* 06.usdz */,
+				29097C0C25B677DE00232CEC /* 07.usdz */,
+				29097C0E25B677DE00232CEC /* 08.usdz */,
+				29097BFF25B677B900232CEC /* LaunchScreen.storyboard */,
+				29097C0225B677B900232CEC /* Info.plist */,
+			);
+			path = MemoryGameAR;
+			sourceTree = "<group>";
+		};
+		6ED7BB87B793ACDA262CB47A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F5B3D7E33918DBC0B3A411 /* Pods_MemoryGameAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DF228C756C158EAE328152A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94CDF9C405BD29C4184EF2CB /* Pods-MemoryGameAR.debug.xcconfig */,
+				FDBDB281438A8CB78EE6C56A /* Pods-MemoryGameAR.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29097BF025B677B800232CEC /* MemoryGameAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29097C0525B677B900232CEC /* Build configuration list for PBXNativeTarget "MemoryGameAR" */;
+			buildPhases = (
+				5692F70FA1857E8CC206D041 /* [CP] Check Pods Manifest.lock */,
+				29097BED25B677B800232CEC /* Sources */,
+				29097BEE25B677B800232CEC /* Frameworks */,
+				29097BEF25B677B800232CEC /* Resources */,
+				101CDC662504192BEDECBC25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryGameAR;
+			productName = MemoryGameAR;
+			productReference = 29097BF125B677B800232CEC /* MemoryGameAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29097BE925B677B800232CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					29097BF025B677B800232CEC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 29097BEC25B677B800232CEC /* Build configuration list for PBXProject "MemoryGameAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29097BE825B677B800232CEC;
+			productRefGroup = 29097BF225B677B800232CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29097BF025B677B800232CEC /* MemoryGameAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29097BEF25B677B800232CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29097C0125B677B900232CEC /* LaunchScreen.storyboard in Resources */,
+				29097C1225B677DE00232CEC /* 01.usdz in Resources */,
+				29097C1825B677DE00232CEC /* 02.usdz in Resources */,
+				29097C1425B677DE00232CEC /* 07.usdz in Resources */,
+				29097C1625B677DE00232CEC /* 08.usdz in Resources */,
+				29097BFE25B677B900232CEC /* Assets.xcassets in Resources */,
+				29097C1325B677DE00232CEC /* 06.usdz in Resources */,
+				29097BFC25B677B800232CEC /* Main.storyboard in Resources */,
+				29097C1525B677DE00232CEC /* 03.usdz in Resources */,
+				29097C1725B677DE00232CEC /* 05.usdz in Resources */,
+				29097C1125B677DE00232CEC /* 04.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101CDC662504192BEDECBC25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoryGameAR/Pods-MemoryGameAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoryGameAR/Pods-MemoryGameAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MemoryGameAR/Pods-MemoryGameAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5692F70FA1857E8CC206D041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoryGameAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29097BED25B677B800232CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29097BF725B677B800232CEC /* ViewController.swift in Sources */,
+				29097BF525B677B800232CEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29097BFA25B677B800232CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29097BFB25B677B800232CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29097BFF25B677B900232CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29097C0025B677B900232CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29097C0325B677B900232CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29097C0425B677B900232CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29097C0625B677B900232CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CDF9C405BD29C4184EF2CB /* Pods-MemoryGameAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH6TFVQ36D;
+				INFOPLIST_FILE = MemoryGameAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylaya.training.MemoryGameAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29097C0725B677B900232CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBDB281438A8CB78EE6C56A /* Pods-MemoryGameAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH6TFVQ36D;
+				INFOPLIST_FILE = MemoryGameAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylaya.training.MemoryGameAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29097BEC25B677B800232CEC /* Build configuration list for PBXProject "MemoryGameAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29097C0325B677B900232CEC /* Debug */,
+				29097C0425B677B900232CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29097C0525B677B900232CEC /* Build configuration list for PBXNativeTarget "MemoryGameAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29097C0625B677B900232CEC /* Debug */,
+				29097C0725B677B900232CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29097BE925B677B800232CEC /* Project object */;
+}

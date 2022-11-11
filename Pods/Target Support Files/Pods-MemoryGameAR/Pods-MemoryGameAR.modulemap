@@ -1,0 +1,6 @@
+framework module Pods_MemoryGameAR {
+  umbrella header "Pods-MemoryGameAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

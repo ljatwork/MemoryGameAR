@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MemoryGameAR/Pods-MemoryGameAR-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework
+${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
